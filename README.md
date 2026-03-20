@@ -15,16 +15,16 @@ dark, minimal, a purple glow in the void
 
 ...system...
 
-os - cachyOS
-wm - hyprland
-bar - waybar
-terminal - kitty (iosevka nerd font mono)
-shell - fish
-launcher - wofi
-notifications - mako
-lock - hyprlock + hypridle
-file manager - thunar + yazi
-fetch - fastfetch (animated intro + planet logo)
+os - cachyOS \
+wm - hyprland \
+bar - waybar \
+terminal - kitty (iosevka nerd font mono) \
+shell - fish \
+launcher - wofi \
+notifications - mako \
+lock - hyprlock + hypridle \
+file manager - thunar + yazi \
+fetch - fastfetch (animated intro + planet logo) \
 
 ...dependencies...
 
