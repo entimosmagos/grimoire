@@ -22,4 +22,8 @@ link "fastfetch"         "fastfetch"
 link "fish/config.fish"  "fish/config.fish"
 link "yazi/theme.toml"   "yazi/theme.toml"
 
+mkdir -p "$HOME/Pictures/wallpaper"
+cp -r "$DOTFILES/wallpaper/." "$HOME/Pictures/wallpaper/"
+echo " copied wallpaper -> ~/Pictures/wallpaper"
+
 echo "done. reload hyprland with: hyprctl reload"
