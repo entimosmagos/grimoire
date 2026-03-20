@@ -1,0 +1,46 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "source": "~/.config/fastfetch/blackhole.txt",
+    "type": "auto",
+    "width": 1,
+    "height": 3,
+    "color": {
+      "1": "magenta"
+    }
+  },
+  "display": {
+    "color": {
+      "keys": "#cba6f7"
+    }
+  },
+  "modules": [
+    {
+      "type": "title",
+      "color": {
+        "user": "#cba6f7",
+        "at": "#ffffff",
+        "host": "#7c5cbf"
+      }
+    },
+    "separator",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "display",
+    "wm",
+    "terminal",
+    "terminalfont",
+    "cpu",
+    "gpu",
+    "memory",
+    "disk",
+    "localip",
+    "battery",
+    "locale",
+    "break",
+  ]
+}

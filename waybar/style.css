@@ -1,0 +1,132 @@
+/* ==========================================
+   Waybar - Lavender/Purple Grimoire Theme
+   ========================================== */
+
+/* -------------------------
+   Core Palette
+------------------------- */
+@define-color ink    #d6d1c4;  /* main text */
+@define-color faded  #9f7fe7;  /* secondary modules */
+@define-color void   #0f0f14;  /* background base */
+@define-color accent #cba6f7;  /* lavender accent */
+@define-color ghost  #6b4f9e;  /* deep purple for text/buttons */
+
+/* -------------------------
+   Base Styles
+------------------------- */
+* {
+    font-family: "Iosevka Nerd Font Mono";
+    font-size: 11px;
+    min-height: 0;
+    border: none;
+    border-radius: 0;
+    letter-spacing: 1px;
+}
+
+/* -------------------------
+   Bar
+------------------------- */
+window#waybar {
+    background-color: rgba(15, 15, 20, 0.95);
+    color: @ink;
+    border-bottom: 1px solid rgba(214, 209, 196, 0.08);
+}
+
+/* -------------------------
+   Workspaces
+------------------------- */
+#workspaces {
+    margin: 0 4px;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    color: @ghost;
+    background: transparent;
+}
+
+#workspaces button.active {
+    color: @accent;
+    border-bottom: 1px solid @accent;
+}
+
+#workspaces button:hover {
+    background: none;
+    color: @accent;
+}
+
+#workspaces button.urgent {
+    color: #f38ba8; /* pink/red for urgent workspaces */
+}
+
+/* -------------------------
+   Window title
+------------------------- */
+#window {
+    color: @ghost;
+    font-size: 10px;
+    padding: 0 6px;
+    letter-spacing: 2px;
+}
+
+/* -------------------------
+   Clock
+------------------------- */
+#clock {
+    color: @accent;
+    padding: 0 14px;
+    letter-spacing: 4px;
+    font-size: 11px;
+}
+
+/* -------------------------
+   Modules
+------------------------- */
+#battery,
+#network,
+#pulseaudio,
+#backlight,
+#mpris,
+#tray,
+#custom-power {
+    padding: 0 8px;
+    color: @faded;
+    letter-spacing: 1px;
+}
+
+/* -------------------------
+   Subtle State Colors
+------------------------- */
+#battery.warning { color: #e0c0ff; }   /* soft lavender warning */
+#battery.critical { color: #f38ba8; }  /* critical red/pink */
+#battery.charging { color: @accent; }  /* lavender charging */
+#network.disconnected { color: #f38ba8; } /* pink when disconnected */
+#pulseaudio.muted { color: @ghost; }
+
+/* -------------------------
+   Power Module
+------------------------- */
+#custom-power {
+    color: @ghost;
+    padding-right: 12px;
+}
+
+#custom-power:hover {
+    color: @accent;
+}
+
+/* -------------------------
+   Tray
+------------------------- */
+#tray {
+    padding: 0 6px;
+}
+
+/* -------------------------
+   Music / MPRIS
+------------------------- */
+#mpris {
+    color: @ghost;
+    letter-spacing: 2px;
+    font-style: italic;
+}
