@@ -1,6 +1,6 @@
 # . . . [G R I M O I R E] . . . #
 
-my cachyOS ThinkPad T480 config
+my cachyOS ThinkPad T480 config \
 dark, minimal, a purple glow in the void
 
 ...preview...
