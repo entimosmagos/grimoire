@@ -36,8 +36,8 @@ brightnessctl wireplumber polkit-gnome
 
 ...colors...
 
-primary - #cba6f7
-secondary - #9a85c7
-dark bg - #0f0a19
-border - #7c3aed
-inactive - #2a1f3d
+primary - #cba6f7 \
+secondary - #9a85c7 \
+dark bg - #0f0a19 \
+border - #7c3aed \
+inactive - #2a1f3d \
