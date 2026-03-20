@@ -1,0 +1,2 @@
+# grimoire
+my thinkpad
