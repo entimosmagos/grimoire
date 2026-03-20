@@ -2,7 +2,7 @@
 
 echo "installing grimoire..."
 
-DOTFILES="$(cd "$dirname "$0")" && pwd)"
+DOTFILES="$(cd "$(dirname "$0")" && pwd)"
 
 link() {
   local src="$DOTFILES/$1"
