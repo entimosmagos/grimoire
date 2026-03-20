@@ -41,3 +41,32 @@ secondary - #9a85c7 \
 dark bg - #0f0a19 \
 border - #7c3aed \
 inactive - #2a1f3d \
+
+# . . . [I N S T A L L A T I O N] . . . #
+
+after installing cachyOS : \
+
+1. open a terminal and install dependencies : \
+
+sudo pacman -S hyprland waybar kitty wofi mako hyprlock hypridle \
+hyprpaper thunar yazi fastfetch fish grim slurp \
+playerctl brightnessctl wireplumber polkit-gnome \
+ttf-iosevka-nerd ttf-fantasque-nerd-font 
+
+2. clone grimoire
+
+git clone https://github.com/entimosmagos/grimoire.git
+
+3. cd into grimoire
+
+cd grimoire
+
+4. run the install script
+
+./install.sh
+
+5. set fish as default shell
+
+chsh -s /usr/bin/fish
+
+6. reboot
